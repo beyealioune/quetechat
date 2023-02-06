@@ -1,0 +1,22 @@
+<p>parent</p>
+<form [formGroup]="form" (ngSubmit)="addCat()">
+    <div>
+      <label for="name">Nom du chat</label>
+      <input type="text" formControlName="name">
+    </div>
+    <div>
+      <label for="race">race</label>
+      <input type="text" formControlName="race">
+    </div>
+    <div>
+        <label for="date">date</label>
+        <input type="date" formControlName="date">
+      </div>
+      <div>
+        <label for="date">photo</label>
+        <input type="text" formControlName="photo">
+      </div>
+    <button type="submit">Ajouter un chat</button>
+  </form>
+
+<app-userkitten></app-userkitten>

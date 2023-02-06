@@ -1,0 +1,21 @@
+<p>enfant</p>
+
+<div *ngIf="carteChat.length">
+    <ul>
+    <li *ngFor="let chat of carteChat; let index = index">
+      <h1>{{chat.name}}</h1>
+      <h3>{{chat.race}}</h3>
+      <h3>{{chat.date}}</h3>
+      <img src="{{chat.photo}}" alt="">
+      <button (click)="retirer(index,chat)">adopter un chat </button>
+
+      
+    </li>
+    </ul>
+    
+
+    
+
+
+
+ 
