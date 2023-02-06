@@ -38,8 +38,8 @@ tab = ['1','2']
       // console.log('Form is valid');
       this.form.reset();
       // this.photo = this.chatService.tableauChat.shift()
-       this.chatService.photo1 = this.chatService.tableauChat.shift()
-       this.chatService.photo.push(this.chatService.photo1)
+      //  this.chatService.photo1 = this.chatService.tableauChat.shift()
+      //  this.chatService.photo.push(this.chatService.photo1)
     } else {
       console.log('Form is not valid');
     }

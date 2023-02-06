@@ -27,8 +27,8 @@ export class UserkittenComponent implements OnInit{
 
     retirer(index : any,chat : any){
       this.chatService.maList.push(chat)
-
-      // console.log("retraiiii",this.chatService.retraitChat(index))
-      // console.log("pushhhh",this.chatService.maList)
+      this.getMyCat();
+      console.log("retraiiii",this.chatService.retraitChat(index))
+      console.log("pushhhh",this.chatService.maList)
     }
   }

@@ -1,7 +1,8 @@
 <p>enfant</p>
 
 <div *ngIf="carteChat.length">
-    <ul>
+  <div class="card"> 
+  <ul >
     <li *ngFor="let chat of carteChat; let index = index">
       <h1>{{chat.name}}</h1>
       <h3>{{chat.race}}</h3>
@@ -12,7 +13,7 @@
       
     </li>
     </ul>
-    
+  </div>
 
     
 

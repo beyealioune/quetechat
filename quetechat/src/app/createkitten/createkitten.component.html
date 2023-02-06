@@ -1,5 +1,5 @@
 <p>parent</p>
-<form [formGroup]="form" (ngSubmit)="addCat()">
+<form class="formulaire" [formGroup]="form" (ngSubmit)="addCat()">
     <div>
       <label for="name">Nom du chat</label>
       <input type="text" formControlName="name">
@@ -19,4 +19,4 @@
     <button type="submit">Ajouter un chat</button>
   </form>
 
-<app-userkitten></app-userkitten>
+<!-- <app-userkitten></app-userkitten> -->

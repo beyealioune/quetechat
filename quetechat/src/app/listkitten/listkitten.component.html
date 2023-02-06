@@ -1,8 +1,11 @@
 <p>listkitten works!</p>
-
+<div *ngIf="chatService.maList.length">
+<div class="card">
 <li *ngFor="let chat of chatService.maList">
     <img [src]="chat.photo" alt="photo">
     <h4>{{chat.name}}</h4>
     <h3>{{chat.race}}</h3>
       
 </li>
+</div>
+</div>
